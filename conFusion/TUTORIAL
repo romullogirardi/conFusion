@@ -24,3 +24,10 @@ OBS: Os pacotes serão baixados para a pasta bower_components, que será criada 
 7) Rodar com comando gulp
 8) Abrir no browser via gulp watch
 
+- USANDO O MONGODB:
+1) Criar a pasta mongodb com a subpasta data dentro do projeto
+2) Iniciar o servidor na pasta data com: mongod --dbpath=data
+3) Abrir uma nova janela do terminal e digitar o comando "mongo" para abrir o shell de manipulação do BD
+4) Digitar "db.help()" para ver todas as funções disponibilizadas pelo mongoDB
+5) Digitar "use <nome_do_bd>" para criar o novo BD
+6) Digitar "db.<nome_da_coleção>.insert({<nome_do_atributo>:<valor_do_atributo>, ...});" para criar e inserir um elemento em uma coleção
